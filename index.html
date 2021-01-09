@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Cases</title>
+    <link rel ="stylesheet" href="styles.css" >
+</head>
+<body>
+
+<h1>USA COVID-19 DATA</h1>
+
+<h2>National</h2>
+
+<form>
+    <button id="natSubmit">Fetch</button>
+</form>
+
+<section>
+    <main>
+        <div class="nationalDataContainer">
+            <!-- national info from API -->
+        </div>
+    </main>
+</section>
+
+    <div class="container">
+        <div id="wrapper">
+          <div class="demo">
+            <h2>State</h2>
+            <div class="control-group">
+              <label for="select-beast">State:</label>
+              <select id="select-state" placeholder="Pick a state...">
+                <option value="">Select a state...</option>
+                <option value=1 >Alabama</option>
+                <option value=0 >Alaska</option>
+                <option value=4 >Arizona</option>
+                <option value=2 >Arkansas</option>
+                <option value=5 >California</option>
+                <option value=6 >Colorado</option>
+                <option value=7 >Connecticut</option>
+                <option value=9 >Delaware</option>
+                <option value=8 >District of Columbia</option>
+                <option value=10 >Florida</option>
+                <option value=11 >Georgia</option>
+                <option value=13 >Hawaii</option>
+                <option value=15 >Idaho</option>
+                <option value=16 >Illinois</option>
+                <option value=17 >Indiana</option>
+                <option value=14 >Iowa</option>
+                <option value=18 >Kansas</option>
+                <option value=19 >Kentucky</option>
+                <option value=20 >Louisiana</option>
+                <option value=23 >Maine</option>
+                <option value=22 >Maryland</option>
+                <option value=21 >Massachusetts</option>
+                <option value=24 >Michigan</option>
+                <option value=25 >Minnesota</option>
+                <option value=28 >Mississippi</option>
+                <option value=26 >Missouri</option>
+                <option value=29 >Montana</option>
+                <option value=32 >Nebraska</option>
+                <option value=36 >Nevada</option>
+                <option value=33 >New Hampshire</option>
+                <option value=34 >New Jersey</option>
+                <option value=35 >New Mexico</option>
+                <option value=37 >New York</option>
+                <option value=30 >North Carolina</option>
+                <option value=31 >North Dakota</option>
+                <option value=38 >Ohio</option>
+                <option value=39 >Oklahoma</option>
+                <option value=40 >Oregon</option>
+                <option value=41 >Pennsylvania</option>
+                <option value=43 >Rhode Island</option>
+                <option value=44 >South Carolina</option>
+                <option value=45 >South Dakota</option>
+                <option value=46 >Tennessee</option>
+                <option value=47 >Texas</option>
+                <option value=48 >Utah</option>
+                <option value=51 >Vermont</option>
+                <option value=49 >Virginia</option>
+                <option value=52 >Washington</option>
+                <option value=54 >West Virginia</option>
+                <option value=53 >Wisconsin</option>
+                <option value=55 >Wyoming</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <form>
+        <button id="statSubmit">Fetch</button>
+    </form>
+
+    <section>
+        <main>
+            <div class="stateDataContainer">
+                <!--State info from API -->
+            </div>
+        </main>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
